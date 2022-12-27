@@ -7,4 +7,92 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 10rem;
+  background-image: url("/images/bgtile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 45%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a.button{
+  border: 1px solid #06365f;
+  padding:0.5rem;
+  border-radius: 0.3rem;
+  background: linear-gradient(#fff, #1c5380);
+  color: #fff;
+}
+
+.centerVertically{
+  vertical-align: center;
+  display: inline-block;
+}
+
+.mainContainer{
+  display: flex;
+  align-items: center;
+}
+
+section{
+  display: inline-block;
+}
+
+.leftSection{
+  width: 40%;
+}
+
+.rightSection{
+  width: 55%;
+}
+
+.whiteBackground{
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.spaceBetween{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spaceAround {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+nav .instaLogo {
+  height: 3rem;
+}
+
+.darkBlue {
+  color: #06365f;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lightBlue {
+  color: #1c5380;
+}
+
+article {
+  padding: 1rem;
 }
